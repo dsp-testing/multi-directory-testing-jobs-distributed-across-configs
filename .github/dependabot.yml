@@ -3,11 +3,11 @@ updates:
   - package-ecosystem: "bundler"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "daily"
     ignore:
-     - dependency-name: "rsc.io/quote"
-       versions: [ ">= 1.9.0" ]
+    - dependency-name: "rails"
+      update-types: ["version-update:semver-patch"]
   - package-ecosystem: "npm"
-    directory: "/yarn"
+    directory: "/"
     schedule:
       interval: "weekly"
