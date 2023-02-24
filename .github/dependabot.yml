@@ -3,7 +3,7 @@ updates:
   - package-ecosystem: "bundler"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "weekly"
     ignore:
     - dependency-name: "rails"
       update-types: ["version-update:semver-patch"]
@@ -12,6 +12,10 @@ updates:
     schedule:
       interval: "weekly"
   - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "gomod"
     directory: "/"
     schedule:
       interval: "weekly"
