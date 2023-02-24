@@ -1,18 +1,5 @@
 version: 2
 updates:
-  - package-ecosystem: "gomod"
-    directory: "/"
-    schedule:
-      interval: "monthly"
-    ignore:
-     - dependency-name: "rsc.io/quote"
-       versions: [ ">= 1.9.0" ]
-     - dependency-name: "github.com/fatih/color"
-       update-types: ["version-update:semver-minor"]
-  - package-ecosystem: "cargo"
-    directory: "/"
-    schedule:
-      interval: "weekly"
   - package-ecosystem: "bundler"
     directory: "/"
     schedule:
@@ -20,77 +7,7 @@ updates:
     ignore:
      - dependency-name: "rsc.io/quote"
        versions: [ ">= 1.9.0" ]
-  - package-ecosystem: "github-actions"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-    ignore:
-     - dependency-name: "*"
-       update-types: ["version-update:semver-minor"]
-  - package-ecosystem: "terraform"
-    directory: "/"
-    open-pull-requests-limit: 10
-    schedule:
-      interval: "weekly"
-  - package-ecosystem: "docker"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-  - package-ecosystem: "pub"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-    open-pull-requests-limit: 10
-  - package-ecosystem: "npm"
-    directory: "/"
-    schedule:
-      interval: "weekly"
   - package-ecosystem: "npm"
     directory: "/yarn"
     schedule:
       interval: "weekly"
-  - package-ecosystem: "maven"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-  - package-ecosystem: "mix"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-  - package-ecosystem: "pip"
-    directory: "/pip/"
-    schedule:
-      interval: "weekly"
-  - package-ecosystem: "pip"
-    directory: "/pipenv/"
-    schedule:
-      interval: "weekly"
-  - package-ecosystem: "pip"
-    directory: "/pip-compile/"
-    schedule:
-      interval: "weekly"
-  - package-ecosystem: "pip"
-    directory: "/poetry/"
-    schedule:
-      interval: "weekly"
-  - package-ecosystem: "composer"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-  - package-ecosystem: "gradle"
-    open-pull-requests-limit: 10
-    directory: "/"
-    schedule:
-      interval: "weekly"
-  - package-ecosystem: "elm"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-  - package-ecosystem: "nuget"
-    directory: "/nuget/"
-    schedule:
-      interval: "weekly"
-  - package-ecosystem: "gitsubmodule"
-    directory: "/"
-    schedule:
-      interval: "monthly"
