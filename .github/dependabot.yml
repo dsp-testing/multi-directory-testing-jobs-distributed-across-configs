@@ -3,7 +3,7 @@ updates:
   - package-ecosystem: "bundler"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
     ignore:
     - dependency-name: "rails"
       update-types: ["version-update:semver-patch"]
