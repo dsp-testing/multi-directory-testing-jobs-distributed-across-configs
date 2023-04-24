@@ -7,6 +7,12 @@ updates:
     ignore:
     - dependency-name: "rails"
       update-types: ["version-update:semver-patch"]
+    groups:
+    - dev-dependencies:
+      patterns:
+      - "factory_*"
+      - "rspec"
+      - "rubo*"
     open-pull-requests-limit: 999
   - package-ecosystem: "npm"
     directory: "/"
