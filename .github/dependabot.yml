@@ -8,7 +8,7 @@ updates:
     - dependency-name: "rails"
       update-types: ["version-update:semver-patch"]
     groups:
-    - dev-dependencies:
+      dev-dependencies:
         patterns:
         - "factory_*"
         - "rubo*"
