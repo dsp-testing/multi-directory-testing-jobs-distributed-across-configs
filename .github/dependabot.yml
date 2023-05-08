@@ -19,16 +19,28 @@ updates:
     schedule:
       interval: "daily"
     open-pull-requests-limit: 999
+    groups:
+      all-npm:
+        patterns:
+        - "*:"
   - package-ecosystem: "pip"
     directory: "/"
     schedule:
       interval: "daily"
     open-pull-requests-limit: 999
+    groups:
+      all-pip:
+        patterns:
+        - "*:"
   - package-ecosystem: "gomod"
     directory: "/"
     schedule:
       interval: "daily"
     open-pull-requests-limit: 999
+    groups:
+      all-gomod:
+        patterns:
+        - "*:"
   - package-ecosystem: "gradle"
     directory: "/"
     schedule:
@@ -36,8 +48,16 @@ updates:
     ignore:
     - dependency-name: "com.zaxxer:HikariCP"
     open-pull-requests-limit: 999
+    groups:
+      all-gradle:
+        patterns:
+        - "*:"
   - package-ecosystem: "composer"
     directory: "/"
     schedule:
       interval: "daily"
     open-pull-requests-limit: 999
+    groups:
+      all-composer:
+        patterns:
+        - "*:"
