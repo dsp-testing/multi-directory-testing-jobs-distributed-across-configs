@@ -22,7 +22,7 @@ updates:
     groups:
       all-npm:
         patterns:
-        - "*:"
+        - "*"
   - package-ecosystem: "pip"
     directory: "/"
     schedule:
@@ -31,7 +31,7 @@ updates:
     groups:
       all-pip:
         patterns:
-        - "*:"
+        - "*"
   - package-ecosystem: "gomod"
     directory: "/"
     schedule:
@@ -40,7 +40,7 @@ updates:
     groups:
       all-gomod:
         patterns:
-        - "*:"
+        - "*"
   - package-ecosystem: "gradle"
     directory: "/"
     schedule:
@@ -51,7 +51,7 @@ updates:
     groups:
       all-gradle:
         patterns:
-        - "*:"
+        - "*"
   - package-ecosystem: "composer"
     directory: "/"
     schedule:
@@ -60,4 +60,4 @@ updates:
     groups:
       all-composer:
         patterns:
-        - "*:"
+        - "*"
