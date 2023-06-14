@@ -54,6 +54,8 @@ updates:
         - "com*"
         - "org*"
         - "net*"
+        exclude-patterns:
+        - "net.kyori*"
   - package-ecosystem: "composer"
     directory: "/"
     schedule:
