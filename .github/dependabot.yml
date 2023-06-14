@@ -51,7 +51,10 @@ updates:
     groups:
       all-gradle:
         patterns:
-        - "*"
+        - "com*"
+        - "org*"
+        - "net*"
+        - "io*"
   - package-ecosystem: "composer"
     directory: "/"
     schedule:
