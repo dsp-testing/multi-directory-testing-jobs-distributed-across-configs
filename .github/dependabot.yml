@@ -54,7 +54,6 @@ updates:
         - "com*"
         - "org*"
         - "net*"
-        - "io*"
   - package-ecosystem: "composer"
     directory: "/"
     schedule:
