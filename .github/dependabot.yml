@@ -56,7 +56,6 @@ updates:
         - "net*"
         exclude-patterns:
         - "net.kyori*"
-        - "org.objenesis*"
   - package-ecosystem: "composer"
     directory: "/"
     schedule:
