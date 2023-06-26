@@ -11,7 +11,7 @@ updates:
       dev-dependencies:
         patterns:
         - "factory_*"
-        - "rubo*"
+        - "rubocop*"
         - "rails"
     open-pull-requests-limit: 999
   - package-ecosystem: "npm"
