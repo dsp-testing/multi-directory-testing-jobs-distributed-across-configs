@@ -61,7 +61,3 @@ updates:
     schedule:
       interval: "daily"
     open-pull-requests-limit: 999
-    groups:
-      all-composer:
-        patterns:
-        - "*"
