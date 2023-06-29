@@ -12,6 +12,7 @@ updates:
         patterns:
         - "factory_*"
         - "rails"
+        - "rubocop*"
     open-pull-requests-limit: 999
   - package-ecosystem: "npm"
     directory: "/"
