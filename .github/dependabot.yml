@@ -9,10 +9,7 @@ updates:
       update-types: ["version-update:semver-patch"]
     groups:
       dev-dependencies:
-        patterns:
-        - "factory_*"
-        - "rails"
-        - "rubocop*"
+        dependency-type: "development"
       empty-group:
         patterns:
         - "nothing-matches-this-on-purpose"
