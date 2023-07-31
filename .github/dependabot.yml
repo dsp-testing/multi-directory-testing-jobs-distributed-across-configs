@@ -10,7 +10,6 @@ updates:
     groups:
       prod-dependencies:
         update-types: 
-        - "minor"
         - "patch"
       dev-dependencies:
         dependency-type: "development"
