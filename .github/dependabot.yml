@@ -8,6 +8,11 @@ updates:
     - dependency-name: "rails"
       update-types: ["version-update:semver-patch"]
     groups:
+      prod-dependencies:
+        dependency-type: "production"
+        update-types: 
+        - "minor"
+        - "patch"
       dev-dependencies:
         dependency-type: "development"
       empty-group:
