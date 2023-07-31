@@ -9,8 +9,7 @@ updates:
       update-types: ["version-update:semver-patch"]
     groups:
       prod-dependencies:
-        update-types: 
-        - "patch"
+        dependency-type: "production"
       dev-dependencies:
         dependency-type: "development"
       empty-group:
