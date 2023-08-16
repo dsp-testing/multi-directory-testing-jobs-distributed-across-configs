@@ -25,9 +25,9 @@ updates:
       interval: "daily"
     open-pull-requests-limit: 999
     groups:
-      all-npm:
+      react-and-friends:
         patterns:
-        - "*"
+        - "react*"
   - package-ecosystem: "pip"
     directory: "/"
     schedule:
