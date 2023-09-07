@@ -19,6 +19,16 @@ updates:
         patterns:
         - "nothing-matches-this-on-purpose"
     open-pull-requests-limit: 999
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    groups:
+      docker-semver-group:
+        update-types:
+        - "minor"
+        - "patch"
+        - "major"
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
