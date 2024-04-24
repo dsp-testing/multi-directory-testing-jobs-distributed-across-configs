@@ -21,3 +21,13 @@ updates:
       frontend:
         patterns:
         - "jquery*"
+  - package-ecosystem: "npm"
+    directories:
+      - "/does-not-exist"
+      - "/neither-does-this"
+    schedule:
+      interval: "weekly"
+    groups:
+      doesnt-matter:
+        patterns:
+        - "*"
