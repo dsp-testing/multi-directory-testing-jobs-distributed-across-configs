@@ -1,5 +1,4 @@
-# dependabot-all-updates-test-grouped
+~# dependabot-all-updates-test-grouped~
+# dependabot-multi-directory-test
 
-The repos is setup to test Dependabot on staging with the grouped experiment enabled
-
-It has been built up iteratively as we test out each ecosystem with the prototype
+The repos is setup to test Dependabot on staging with the multi-directory feature enabled
