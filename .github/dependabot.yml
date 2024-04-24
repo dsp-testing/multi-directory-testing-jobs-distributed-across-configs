@@ -23,8 +23,6 @@ updates:
         - "fast-jwt*"
   - package-ecosystem: "npm"
     directories:
-      - "/backend"
-      - "/backend/frontend"
       - "/doesnt-exist"
     schedule:
       interval: "weekly"
