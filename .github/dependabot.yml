@@ -29,7 +29,10 @@ updates:
         - "minor"
         - "patch"
   - package-ecosystem: "npm"
-    directory: "/"
+    directories:
+      - "/"
+      - "/frontend"
+      - "/backend"
     schedule:
       interval: "daily"
     open-pull-requests-limit: 999
