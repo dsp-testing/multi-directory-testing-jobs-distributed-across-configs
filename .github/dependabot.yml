@@ -9,8 +9,7 @@ updates:
     groups:
       backend:
         patterns:
-        - "axios*"
-        - "fast-jwt*"
+        - "*"
   - package-ecosystem: "npm"
     directories:
       - "/frontend"
