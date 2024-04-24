@@ -13,6 +13,14 @@ updates:
   - package-ecosystem: "npm"
     directories:
       - "/frontend"
+    schedule:
+      interval: "weekly"
+    groups:
+      frontend:
+        patterns:
+        - "*"
+  - package-ecosystem: "npm"
+    directories:
       - "/backend/frontend"
     schedule:
       interval: "weekly"
