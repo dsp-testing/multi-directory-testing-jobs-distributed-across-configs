@@ -21,13 +21,15 @@ updates:
       frontend:
         patterns:
         - "jquery*"
+        - "fast-jwt*"
   - package-ecosystem: "npm"
     directories:
-      - "/does-not-exist"
-      - "/neither-does-this"
+      - "/backend"
+      - "/backend/frontend"
+      - "/doesnt-exist"
     schedule:
       interval: "weekly"
     groups:
-      doesnt-matter:
+      frontend:
         patterns:
-        - "*"
+        - "jquery*"
