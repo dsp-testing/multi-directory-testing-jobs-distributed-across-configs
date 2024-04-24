@@ -19,14 +19,4 @@ updates:
     groups:
       frontend:
         patterns:
-        - "jquery*"
-        - "fast-jwt*"
-  - package-ecosystem: "npm"
-    directories:
-      - "/doesnt-exist"
-    schedule:
-      interval: "weekly"
-    groups:
-      frontend:
-        patterns:
-        - "jquery*"
+        - "*"
