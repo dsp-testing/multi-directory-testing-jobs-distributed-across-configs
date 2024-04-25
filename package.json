@@ -18,16 +18,13 @@
       }
     }
   },
-  "devDependencies": {
-    "etag": "^1.0.0"
-  },
   "dependencies": {
-    "fetch-factory": "^0.0.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-is": "^18.2.0",
-    "react-redux": "^8.1.2",
-    "react-router": "^6.15.0",
-    "react-router-dom": "^6.15.0"
+    "axios": "^1.6.2",
+    "fast-jwt": "3.0",
+    "follow-redirects": "1.13",
+    "json-web-token": "3.0",
+    "payload": "1.5",
+    "sharp": "^0.32.0",
+    "yaml": "^2.1.0"
   }
 }

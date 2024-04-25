@@ -3,20 +3,18 @@ updates:
   - package-ecosystem: "npm"
     directories:
       - "/frontend/backend"
-      - "/backend"
     schedule:
       interval: "weekly"
     groups:
-      backend:
+      frontend-backend:
         patterns:
         - "*"
   - package-ecosystem: "npm"
     directories:
-      - "/frontend"
-      - "/backend/frontend"
+      - "/backend"
     schedule:
       interval: "weekly"
     groups:
-      frontend:
+      bakend:
         patterns:
         - "*"
